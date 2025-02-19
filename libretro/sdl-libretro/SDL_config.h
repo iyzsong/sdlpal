@@ -61,4 +61,7 @@
 #define SDL_TIMER_UNIX 1
 #define SDL_VIDEO_DRIVER_DUMMY 1
 
+/* libretro: speed_scale */
+#define SDL_GetTicks SDL_GetTicksReal
+
 #endif /* _SDL_config_h */
